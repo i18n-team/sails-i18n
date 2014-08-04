@@ -33,6 +33,17 @@ config/locales/es.json
 config/i18n.js
 
 
+代码示例：
+
+```
+module.exports.i18n = {
+	locales: ['en', 'es', 'fr', 'de'],
+	defaultLocale: 'en',
+	localesDirectory: '/config/locales'
+}
+```
+
+
 | Property           | Type        | Default               | Details |
 |--------------------|:-----------:|-----------------------|---------|
 | `locales`          | ((array))   | ['en','es','fr','de'] | 支持的语言标记 [locale codes](http://en.wikipedia.org/wiki/BCP_47)
