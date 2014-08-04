@@ -7,14 +7,14 @@ Sails依赖：[i18n-node](https://github.com/mashpie/i18n-node#list-of-configura
 
 #### 使用
 
-1. 在view里面
+*. 在view里面
 
 ```
 <h1> <%= __('Hello') %> </h1>
 ```
 
 
-2. json语言文件
+*. json语言文件
 
 config/locales/es.json
 
